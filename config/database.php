@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Str;
-$DATABASE_URL=parse_url('postgres://isacnygaxoezha:736f90bbb40eb84ac770546dd9a0d1177b33558a47ec867568c092c19d676d7e@ec2-52-205-145-201.compute-1.amazonaws.com:5432/d40ctvesabnt17');
+
+$DATABASE_URL=parse_url('mysql://sql7386361:gbKK7PddLH@sql7.freemysqlhosting.net/sql7386361?reconnect=true');
 
 return [
 
@@ -16,7 +17,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'pgsql'),
+    'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -66,11 +67,12 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'host' =>  $DATABASE_URL["host"],
-            'port' =>  $DATABASE_URL["port"],
-            'database' => ltrim($DATABASE_URL["path"], "/"),
-            'username' =>  $DATABASE_URL["user"],
-            'password' =>  $DATABASE_URL["pass"],
+            'url' => env('DATABASE_URL'),
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '5432'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
