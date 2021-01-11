@@ -31882,8 +31882,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\laragon\www\bottega_dashboard\login\bott\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\laragon\www\bottega_dashboard\login\bott\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\ricca\Desktop\Bottega-izi-GIT\bottega_izy_kiurk\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\ricca\Desktop\Bottega-izi-GIT\bottega_izy_kiurk\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
