@@ -18,7 +18,7 @@
     <div class="row text-center" style="width:100%">
         <div class="col-sm-3 col-lg-3 col-md-3"></div>
         <div class="col-sm-1 col-lg-1 col-md-1 " style="padding-top: 250px;padding-right:0!important;padding-left: 0!important;">
-            <a href="licenza.html" onclick="window.open('licenza.html','nuovaFinestra','width=500,height=301'); return false;" onkeypress="window.open('licenza.html','nuovaFinestra','width=663,height=741'); return false;" title="Esempio di pop-up accessibile - Link interno - Nuova finestra" style="color:white;font-size:50px;font-family: aliens and cows;letter-spacing: -5px;text-decoration:none">Licenza</a><br>
+            <a href="licenza.html" onclick="window.open('licenza.html','nuovaFinestra','width=800,height=500'); return false;" onkeypress="window.open('licenza.html','nuovaFinestra','width=663,height=741'); return false;" title="Esempio di pop-up accessibile - Link interno - Nuova finestra" style="color:white;font-size:50px;font-family: aliens and cows;letter-spacing: -5px;text-decoration:none">Licenza</a><br>
             <a href="bottega.html" onclick="window.open('bottega.html','nuovaFinestra','width=663,height=741'); return false;" onkeypress="window.open('bottega.html','nuovaFinestra','width=663,height=741'); return false;" title="Esempio di pop-up accessibile - Link interno - Nuova finestra" style="color:white;font-size:50px;font-family: aliens and cows;letter-spacing: -5px;text-decoration:none">Bottega</a><br>
             <a href="catalogo" style="color:white; font-size:50px;font-family: aliens and cows;letter-spacing: -5px;text-decoration:none ">Catalogo</a><br><br>
         </div>  
